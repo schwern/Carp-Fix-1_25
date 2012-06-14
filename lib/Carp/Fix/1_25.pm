@@ -5,6 +5,8 @@ package Carp::Fix::1_25;
 use strict;
 use warnings;
 
+our $VERSION = '1.000000';
+
 require Carp;
 require Exporter;
 our @ISA = qw(Exporter);

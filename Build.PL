@@ -11,7 +11,6 @@ my $builder = Module::Build->new(
     module_name => 'Carp::Fix::1_25',
     license     => 'perl',
     dist_author => 'Michael G Schwern <schwern@pobox.com>',
-    dist_version => "1.000000",
 
     requires => {
         'perl'                    => '5.6.0',
