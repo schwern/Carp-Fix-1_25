@@ -1,0 +1,5 @@
+Build.PL
+lib/Carp/Fix/1_25.pm
+MANIFEST			This list of files
+MANIFEST.SKIP
+t/fixed.t
