@@ -18,7 +18,7 @@ no_index:
 provides:
   Carp::Fix::1_25:
     file: lib/Carp/Fix/1_25.pm
-    version: 1.000000
+    version: 1.000001
   Carp::Fix::1_25::Fixed:
     file: lib/Carp/Fix/1_25.pm
     version: 0
@@ -26,7 +26,7 @@ requires:
   Carp: 0
   perl: v5.8.0
 resources:
-  bugtracker: http://github.com/schwern/Carp-Fixer/issues
+  bugtracker: http://github.com/schwern/Carp-Fix-1_25/issues
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/schwern/Carp-Fixer/tree/master
-version: 1.000000
+  repository: http://github.com/schwern/Carp-Fix-1_25/tree/master
+version: 1.000001

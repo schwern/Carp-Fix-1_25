@@ -24,8 +24,8 @@ my $builder = Module::Build->new(
 
     meta_merge => {
         resources => {
-            repository  => 'http://github.com/schwern/Carp-Fixer/tree/master',
-            bugtracker  => 'http://github.com/schwern/Carp-Fixer/issues',
+            repository  => 'http://github.com/schwern/Carp-Fix-1_25/tree/master',
+            bugtracker  => 'http://github.com/schwern/Carp-Fix-1_25/issues',
         },
         no_index => {
             package => [qw(Carp::Fix::1_25::Fixed)],

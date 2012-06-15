@@ -7,7 +7,7 @@ use warnings;
 
 use 5.008;
 
-our $VERSION = '1.000000';
+our $VERSION = '1.000001';
 
 require Carp;
 require Exporter;
@@ -135,13 +135,13 @@ See L<http://dev.perl.org/licenses/artistic.html>
 =head1 BUGS, ISSUES and FEEDBACK
 
 Please report and bugs, issues, feedback, annoyances or kudos to
-L<http://github.com/schwern/Carp-Fixer/issues>.  Don't worry if you
+L<http://github.com/schwern/Carp-Fix-1_25/issues>.  Don't worry if you
 don't have a fix.  Don't worry if you don't have all the information.
 Don't worry if you don't know if it's a bug.  We want to hear from you.
 
 Report early, report often.
 
-Source code repository at L<http://github.com/schwern/Carp-Fixer/>
+Source code repository at L<http://github.com/schwern/Carp-Fix-1_25/>
 
 =head1 SEE ALSO
 
