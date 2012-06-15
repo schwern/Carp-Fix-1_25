@@ -134,7 +134,7 @@ See L<http://dev.perl.org/licenses/artistic.html>
 
 =head1 BUGS, ISSUES and FEEDBACK
 
-Please report and bugs, issues, feedback, annoyances or kudos to
+Please report any bugs, issues, feedback, annoyances or kudos to
 L<http://github.com/schwern/Carp-Fix-1_25/issues>.  Don't worry if you
 don't have a fix.  Don't worry if you don't have all the information.
 Don't worry if you don't know if it's a bug.  We want to hear from you.
