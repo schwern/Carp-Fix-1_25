@@ -102,13 +102,14 @@ Carp::Fix::1_25 - Smooth over incompatible changes in Carp 1.25
 
 Carp 1.25 made a change to its formatting, adding a period at the end
 of the message.  This can mess up tests and code that are looking for
-error messages.  Carp::Fix::1_25 exports its own carp functions which
-change the Carp message to match the 1.25 version regardless of what
-version of Carp you're using.
+error messages.  Carp::Fix::1_25 makes the message consistent,
+regardless of what versoin of Carp you're using.
 
-Carp::Fix::1_25 otherwise acts exactly like Carp and it will honor
-L<Carp global variables|Carp/GLOBAL VARIABLES> such as C<@CARP_NOT>
-and C<%Carp::Internal>.
+Carp::Fix::1_25 exports its own carp functions which change the Carp
+message to match the 1.25 version.  Carp::Fix::1_25 otherwise acts
+exactly like Carp and it will honor L<Carp global
+variables|Carp/GLOBAL VARIABLES> such as C<@CARP_NOT> and
+C<%Carp::Internal>.
 
 Why do this instead of just upgrading Carp?  Upgrading Carp would
 affect all installed code all at once.  You might not be ready for
