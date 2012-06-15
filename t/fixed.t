@@ -11,7 +11,8 @@ use Test::More;
 my $FILE  = __FILE__;
 my $QFILE = quotemeta $FILE;
 
-diag "with Carp $Carp::VERSION";
+my $carp_version = $Carp::VERSION || "undef";
+diag "with Carp $carp_version";
 
 note "default exports"; {
     can_ok __PACKAGE__, "carp", "croak", "confess";
