@@ -5,6 +5,8 @@ package Carp::Fix::1_25;
 use strict;
 use warnings;
 
+use 5.008;
+
 our $VERSION = '1.000000';
 
 require Carp;
@@ -115,6 +117,11 @@ Why do this instead of just upgrading Carp?  Upgrading Carp would
 affect all installed code all at once.  You might not be ready for
 that, or you might not want your module to foist that on its users.
 This lets you fix things one namespace at a time.
+
+=head1 KNOWN BUGS
+
+The Carp which comes with 5.6.x does not have the necessary features
+to support this wrapper.
 
 =head1 SEE ALSO
 

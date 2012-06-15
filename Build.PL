@@ -5,7 +5,7 @@ use warnings;
 
 use Module::Build;
 
-use 5.006;
+use 5.008;
 
 my $builder = Module::Build->new(
     module_name => 'Carp::Fix::1_25',
@@ -13,7 +13,7 @@ my $builder = Module::Build->new(
     dist_author => 'Michael G Schwern <schwern@pobox.com>',
 
     requires => {
-        'perl'                    => '5.6.0',
+        'perl'                    => '5.8.0',
         'Carp'                    => 0,
     },
     configure_requires => {
