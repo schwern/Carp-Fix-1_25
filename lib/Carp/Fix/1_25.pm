@@ -123,6 +123,26 @@ This lets you fix things one namespace at a time.
 The Carp which comes with 5.6.x does not have the necessary features
 to support this wrapper.
 
+=head1 COPYRIGHT
+
+Copyright 2012 by Michael G Schwern E<lt>schwernE<0x40>pobox.comE<gt>.
+
+This program is free software; you can redistribute it and/or 
+modify it under the same terms as Perl itself.
+
+See L<http://dev.perl.org/licenses/artistic.html>
+
+=head1 BUGS, ISSUES and FEEDBACK
+
+Please report and bugs, issues, feedback, annoyances or kudos to
+L<http://github.com/schwern/Carp-Fixer/issues>.  Don't worry if you
+don't have a fix.  Don't worry if you don't have all the information.
+Don't worry if you don't know if it's a bug.  We want to hear from you.
+
+Report early, report often.
+
+Source code repository at L<http://github.com/schwern/Carp-Fixer/>
+
 =head1 SEE ALSO
 
 L<Carp>
