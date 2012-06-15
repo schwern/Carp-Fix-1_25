@@ -105,7 +105,7 @@ Carp::Fix::1_25 - Smooth over incompatible changes in Carp 1.25
 Carp 1.25 made a change to its formatting, adding a period at the end
 of the message.  This can mess up tests and code that are looking for
 error messages.  Carp::Fix::1_25 makes the message consistent,
-regardless of what versoin of Carp you're using.
+regardless of what version of Carp you're using.
 
 Carp::Fix::1_25 exports its own carp functions which change the Carp
 message to match the 1.25 version.  Carp::Fix::1_25 otherwise acts
