@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
+use lib 't/lib';
 use Carp::Fix::1_25;
 use Test::More;
 

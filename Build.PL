@@ -16,9 +16,6 @@ my $builder = Module::Build->new(
         'perl'                    => '5.6.0',
         'Carp'                    => 0,
     },
-    build_requires => {
-        'Test::More'         => '0.88',
-    },
     configure_requires => {
         # MB's auto configure requires only puts it in the META.yml
         # so some CPAN shells won't see it.
