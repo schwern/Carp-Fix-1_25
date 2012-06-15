@@ -1,5 +1,14 @@
+.perltidyrc
 Build.PL
+Changes
 lib/Carp/Fix/1_25.pm
 MANIFEST			This list of files
 MANIFEST.SKIP
 t/fixed.t
+t/lib/Test/Builder.pm
+t/lib/Test/Builder/IO/Scalar.pm
+t/lib/Test/Builder/Module.pm
+t/lib/Test/Builder/Tester.pm
+t/lib/Test/Builder/Tester/Color.pm
+t/lib/Test/More.pm
+t/lib/Test/Simple.pm
