@@ -44,23 +44,25 @@ note "carp"; {
 
 note "cluck"; {
     package Foo;
+    use Test::More;
     use Carp::Fix::1_25 qw(cluck);
 
     my @warnings;
     local $SIG{__WARN__} = sub { push @warnings, join "", @_ };
 
     cluck "Stuffs";
-    ::like $warnings[0], qr{^Stuffs at $QFILE line @{[ __LINE__ -1 ]}\.\n};
-    ::unlike $warnings[0], qr{Carp::Fix}, "our internals don't show up in the stack";
-    ::is @warnings, 1;
+    like $warnings[0], qr{^Stuffs at $QFILE line @{[ __LINE__ -1 ]}\.\n};
+    unlike $@, qr{Carp::Fix}, "our internals don't show up in the stack";
+    is @warnings, 1;
 }
 
 note "short/longmess"; {
     package Foo;
+    use Test::More;
     use Carp::Fix::1_25 qw(longmess shortmess);
 
-    ::is longmess("Foo"),  "Foo at $FILE line @{[ __LINE__ ]}.\n";
-    ::is shortmess("Foo"), "Foo at $FILE line @{[ __LINE__ ]}.\n";
+    is longmess("Foo"),  "Foo at $FILE line @{[ __LINE__ ]}.\n";
+    is shortmess("Foo"), "Foo at $FILE line @{[ __LINE__ ]}.\n";
 }
 
 done_testing;
